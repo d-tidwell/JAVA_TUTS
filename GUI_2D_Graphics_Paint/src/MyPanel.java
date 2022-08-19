@@ -5,7 +5,6 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Image;
-
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
@@ -68,6 +67,8 @@ public class MyPanel extends JPanel {
 		g2d.setPaint(Color.red);
 		g2d.setFont(new Font("Ink Free",Font.BOLD, 50));
 		g2d.drawString("You are a winner", 50, 50);
+		
+		
 		
 		
 		
