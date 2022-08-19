@@ -34,6 +34,7 @@ public class Game {
 		rightAction = new RightAction();
 		
 		//sets actionPerformed method of the (this)Action class
+		// to use the arrow keys
 		label.getInputMap().put(KeyStroke.getKeyStroke("UP"), "upAction");
 		label.getActionMap().put("upAction", upAction);
 		
@@ -47,6 +48,7 @@ public class Game {
 		label.getActionMap().put("rightAction", rightAction);
 		
 		//****single character w needs single quotes 'w'****
+		// for KeyChar input
 		label.getInputMap().put(KeyStroke.getKeyStroke('w'), "upAction");
 		label.getActionMap().put("upAction", upAction);
 		
