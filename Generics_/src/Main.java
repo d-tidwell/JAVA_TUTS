@@ -42,7 +42,7 @@ public class Main {
 		System.out.println(stringArr.getValue());
 	}	
 	//custom dictates replacing Thing with just T
-	//can limit the data types accepted as well
+	//can limit the data types accepted as well - "Bounded Types"
 	public static <Thing> void displayArray(Thing[] array) {
 		
 		for(Thing x : array) {
