@@ -19,14 +19,11 @@ public class EncryptionProgram {
 	
 	private char[] letters;
 	
-	private char[] secretLetters;
 	
 	EncryptionProgram() {
 		
 		scanner = new Scanner(System.in);
-		
-		random = new Random();
-		
+				
 		list = new ArrayList();
 		
 		shuffledList = new ArrayList();
