@@ -74,11 +74,9 @@ public class TextEditor extends JFrame implements ActionListener {
 			@Override
 			public void stateChanged(ChangeEvent e) {
 				// change size of font in text area
-				textArea.setFont(new Font(textArea.getFont().getFamily(),Font.PLAIN,(int)fontSizeSpinner.getValue()));
-				
+				textArea.setFont(new Font(textArea.getFont().getFamily(),Font.PLAIN,(int)fontSizeSpinner.getValue()));				
 			}
-			
-			
+
 		});
 		
 		fontColorButton = new JButton("Font Color");
