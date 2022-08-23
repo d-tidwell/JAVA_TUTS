@@ -25,7 +25,7 @@ public class MyFrame extends JFrame {
 		this.setTitle("Clockwork bored");
 		this.setLayout(new FlowLayout());
 		this.setSize(350, 200);
-		this.setResizable(false);
+//		this.setResizable(false);
 		
 		//find the datecodes on Oracle website
 		timeFormat = new SimpleDateFormat("hh:mm:ss a");
