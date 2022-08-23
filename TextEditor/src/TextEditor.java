@@ -175,7 +175,7 @@ public class TextEditor extends JFrame implements ActionListener {
 				
 				file = new File(fileChooser.getSelectedFile().getAbsolutePath());
 				try {
-					fileOut = new PrintWriter(file);
+					fileOut = new PrintWriter(file);//??????
 					fileOut.println(textArea.getText());
 				} catch (FileNotFoundException e1) {
 					// TODO Auto-generated catch block
